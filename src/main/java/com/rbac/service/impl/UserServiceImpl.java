@@ -4,7 +4,10 @@ import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.rbac.mapper.UserMapper;
 import com.rbac.model.User;
 import com.rbac.service.IUserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.Date;
 
 /**
  * <p>
@@ -17,4 +20,15 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {
 
+    @Autowired
+    private UserMapper userMapper;
+
+    @Override
+    public boolean save(User user) {
+        if(null!=user.getId()){
+            return userMapper.updateById(user)>0;
+        }else{
+           return userMapper.insert(user)>0;
+        }
+    }
 }

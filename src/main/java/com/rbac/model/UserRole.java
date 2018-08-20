@@ -40,24 +40,6 @@ public class UserRole extends Model<UserRole> {
      * 是否删除:0:否 ,1:是
      */
     private Integer deleted;
-    /**
-     * 创建人
-     */
-    private String creator;
-    /**
-     * 创建时间
-     */
-    @TableField("create_date")
-    private Date createDate;
-    /**
-     * 修改人
-     */
-    private String modifier;
-    /**
-     * 修改时间
-     */
-    @TableField("modify_date")
-    private Date modifyDate;
 
 
     public Long getId() {
@@ -92,37 +74,6 @@ public class UserRole extends Model<UserRole> {
         this.deleted = deleted;
     }
 
-    public String getCreator() {
-        return creator;
-    }
-
-    public void setCreator(String creator) {
-        this.creator = creator;
-    }
-
-    public Date getCreateDate() {
-        return createDate;
-    }
-
-    public void setCreateDate(Date createDate) {
-        this.createDate = createDate;
-    }
-
-    public String getModifier() {
-        return modifier;
-    }
-
-    public void setModifier(String modifier) {
-        this.modifier = modifier;
-    }
-
-    public Date getModifyDate() {
-        return modifyDate;
-    }
-
-    public void setModifyDate(Date modifyDate) {
-        this.modifyDate = modifyDate;
-    }
 
     @Override
     protected Serializable pkVal() {
@@ -132,14 +83,10 @@ public class UserRole extends Model<UserRole> {
     @Override
     public String toString() {
         return "UserRole{" +
-        "id=" + id +
-        ", userId=" + userId +
-        ", roleId=" + roleId +
-        ", deleted=" + deleted +
-        ", creator=" + creator +
-        ", createDate=" + createDate +
-        ", modifier=" + modifier +
-        ", modifyDate=" + modifyDate +
-        "}";
+                "id=" + id +
+                ", userId=" + userId +
+                ", roleId=" + roleId +
+                ", deleted=" + deleted +
+                '}';
     }
 }

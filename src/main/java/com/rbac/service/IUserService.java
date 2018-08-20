@@ -13,4 +13,5 @@ import com.rbac.model.User;
  */
 public interface IUserService extends IService<User> {
 
+    boolean save(User user);
 }

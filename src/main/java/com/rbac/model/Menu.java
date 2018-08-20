@@ -45,10 +45,6 @@ public class Menu extends Model<Menu> {
      */
     private String url;
     /**
-     * icon图片
-     */
-    private String icon;
-    /**
      * 是否展开:0:是 ,1:否
      */
     private Integer isopen;
@@ -61,43 +57,14 @@ public class Menu extends Model<Menu> {
      */
     private Integer level;
     /**
-     * 状态：0管理员增加/1系统初始化
-     */
-    private Integer source;
-    /**
      * 状态：0启用/1禁用
      */
     private Integer status;
-    /**
-     * 排序
-     */
-    private Integer orderby;
-    /**
-     * 备注
-     */
-    private String remark;
+
     /**
      * 是否删除:0:否 ,1:是
      */
     private Integer deleted;
-    /**
-     * 创建人
-     */
-    private String creator;
-    /**
-     * 创建时间
-     */
-    @TableField("create_date")
-    private Date createDate;
-    /**
-     * 修改人
-     */
-    private String modifier;
-    /**
-     * 修改时间
-     */
-    @TableField("modify_date")
-    private Date modifyDate;
 
 
     public Long getId() {
@@ -140,13 +107,6 @@ public class Menu extends Model<Menu> {
         this.url = url;
     }
 
-    public String getIcon() {
-        return icon;
-    }
-
-    public void setIcon(String icon) {
-        this.icon = icon;
-    }
 
     public Integer getIsopen() {
         return isopen;
@@ -172,13 +132,6 @@ public class Menu extends Model<Menu> {
         this.level = level;
     }
 
-    public Integer getSource() {
-        return source;
-    }
-
-    public void setSource(Integer source) {
-        this.source = source;
-    }
 
     public Integer getStatus() {
         return status;
@@ -186,22 +139,6 @@ public class Menu extends Model<Menu> {
 
     public void setStatus(Integer status) {
         this.status = status;
-    }
-
-    public Integer getOrderby() {
-        return orderby;
-    }
-
-    public void setOrderby(Integer orderby) {
-        this.orderby = orderby;
-    }
-
-    public String getRemark() {
-        return remark;
-    }
-
-    public void setRemark(String remark) {
-        this.remark = remark;
     }
 
     public Integer getDeleted() {
@@ -212,37 +149,6 @@ public class Menu extends Model<Menu> {
         this.deleted = deleted;
     }
 
-    public String getCreator() {
-        return creator;
-    }
-
-    public void setCreator(String creator) {
-        this.creator = creator;
-    }
-
-    public Date getCreateDate() {
-        return createDate;
-    }
-
-    public void setCreateDate(Date createDate) {
-        this.createDate = createDate;
-    }
-
-    public String getModifier() {
-        return modifier;
-    }
-
-    public void setModifier(String modifier) {
-        this.modifier = modifier;
-    }
-
-    public Date getModifyDate() {
-        return modifyDate;
-    }
-
-    public void setModifyDate(Date modifyDate) {
-        this.modifyDate = modifyDate;
-    }
 
     @Override
     protected Serializable pkVal() {
@@ -252,24 +158,16 @@ public class Menu extends Model<Menu> {
     @Override
     public String toString() {
         return "Menu{" +
-        "id=" + id +
-        ", parentId=" + parentId +
-        ", functionId=" + functionId +
-        ", name=" + name +
-        ", url=" + url +
-        ", icon=" + icon +
-        ", isopen=" + isopen +
-        ", type=" + type +
-        ", level=" + level +
-        ", source=" + source +
-        ", status=" + status +
-        ", orderby=" + orderby +
-        ", remark=" + remark +
-        ", deleted=" + deleted +
-        ", creator=" + creator +
-        ", createDate=" + createDate +
-        ", modifier=" + modifier +
-        ", modifyDate=" + modifyDate +
-        "}";
+                "id=" + id +
+                ", parentId=" + parentId +
+                ", functionId=" + functionId +
+                ", name='" + name + '\'' +
+                ", url='" + url + '\'' +
+                ", isopen=" + isopen +
+                ", type=" + type +
+                ", level=" + level +
+                ", status=" + status +
+                ", deleted=" + deleted +
+                '}';
     }
 }

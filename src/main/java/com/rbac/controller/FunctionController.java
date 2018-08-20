@@ -15,7 +15,7 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 @RequestMapping("/function")
-public class FunctionController {
+public class FunctionController extends  BaseController {
 
 }
 

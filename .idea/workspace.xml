@@ -1,7 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="049bd7ca-7a58-4773-9cf8-cc0b62dec4ec" name="Default Changelist" comment="" />
+    <list default="true" id="049bd7ca-7a58-4773-9cf8-cc0b62dec4ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/common/config/MetaObjectHandlerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/common/config/MetaObjectHandlerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/common/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/common/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/controller/ErrorLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/controller/ErrorLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/controller/FunctionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/controller/FunctionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/controller/OperationLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/controller/OperationLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/controller/RoleMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/controller/RoleMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/controller/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/controller/UserLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/controller/UserRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/controller/UserRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/model/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/model/Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/model/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/model/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/model/RoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/model/RoleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/model/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/model/UserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/model/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rbac/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rbac/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/FunctionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/FunctionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/RoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleMenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserLoginMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserLoginMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/cityLinkage/cityData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/cityLinkage/citySelect.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/cityLinkage/citySelect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/cityLinkage/citySelectMultiple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/cityLinkage/multiLevelLinkage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/layui.select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/layui.utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/layui/layui.verify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/mCustomScrollbar/jquery.mCustomScrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/mCustomScrollbar/jquery.mCustomScrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/mCustomScrollbar/jquery.mousewheel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/awesomeStyle/awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/awesomeStyle/awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/awesomeStyle/fa.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/awesomeStyle/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/metroStyle/img/line_conn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/metroStyle/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/metroStyle/img/metro.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/metroStyle/img/metro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/metroStyle/metroStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/img/diy/1_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/img/diy/1_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/img/diy/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/img/diy/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/img/diy/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/img/diy/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/img/diy/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/img/diy/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/img/diy/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/img/diy/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/img/line_conn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/img/zTreeStandard.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/img/zTreeStandard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/css/zTreeStyle/zTreeStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/js/jquery.ztree.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/js/jquery.ztree.core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/js/jquery.ztree.excheck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/js/jquery.ztree.exedit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/plugins/zTree/js/jquery.ztree.exhide.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/password.html" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,41 +191,58 @@
     <session id="-59132921">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="yml" value="1" />
+          <entry key="class" value="8" />
+          <entry key="html" value="25" />
+          <entry key="java" value="34" />
+          <entry key="js" value="2" />
+          <entry key="xml" value="8" />
+          <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="YAML" value="1" />
+          <entry key="CLASS" value="8" />
+          <entry key="HTML" value="25" />
+          <entry key="JAVA" value="34" />
+          <entry key="JavaScript" value="2" />
+          <entry key="XML" value="8" />
+          <entry key="YAML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="45" />
+          <entry key="java" value="456" />
+          <entry key="xml" value="8" />
+          <entry key="yml" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="45" />
+          <entry key="JAVA" value="456" />
+          <entry key="XML" value="8" />
+          <entry key="YAML" value="45" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +250,48 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/resources/templates/password.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/controller/ErrorLogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/controller/FunctionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/controller/OperationLogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/controller/RoleMenuController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/controller/UserLoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/controller/UserRoleController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/user/detail.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/user/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/user/grant.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/user/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/common/layout/footer.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/common/layout/footJs.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/common/layout/header.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/common/layout/topNav.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/user/add.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/common/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/common/config/MetaObjectHandlerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/model/Function.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/FunctionMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/model/Menu.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/model/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/model/RoleMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/RoleMenuMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/model/UserRole.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/model/UserLogin.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserLoginMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rbac/service/impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -65,9 +301,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-299" />
-    <option name="y" value="77" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="386" />
+    <option name="y" value="21" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -102,7 +338,15 @@
               <item name="rbac" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -112,15 +356,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534764773786" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534775757922" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProject\rbac\src\main\resources\templates" />
+      <recent name="E:\IdeaProject\rbac\src\main\resources\static\fonts" />
       <recent name="E:\IdeaProject\rbac\src\main\resources" />
+      <recent name="E:\IdeaProject\rbac\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -154,16 +405,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534763479560</updated>
-      <workItem from="1534763480876" duration="996000" />
+      <workItem from="1534763480876" duration="10738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="996000" />
+    <option name="totallyTimeSpent" value="10738000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="386" y="21" width="1400" height="1000" extended-state="0" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -171,18 +421,19 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" weight="0.3991323" />
+      <window_info anchor="bottom" id="Messages" weight="0.3290993" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.42494226" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -192,6 +443,7 @@
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Preview" weight="0.32995737" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -204,14 +456,392 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rbac/controller/UserController.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/controller/FunctionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/controller/OperationLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/controller/RoleMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/controller/UserRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/operationLog/index.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/grant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/fonts/aIcon/iconfont.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/error/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/error/403.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/error/500.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/layout/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/layout/footJs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/layout/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/layout/leftNav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/layout/topNav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/controller/UserLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="570" selection-start-line="570" selection-end-line="570" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="492" selection-start-line="492" selection-end-line="492" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="425" selection-start-line="425" selection-end-line="425" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/plugins/parser/ISqlParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/common/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+          <folding>
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/common/config/MetaObjectHandlerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="350">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/FunctionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/model/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="99" column="28" lean-forward="true" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/model/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="158" column="18" selection-start-line="158" selection-start-column="18" selection-end-line="158" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/model/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="107" column="24" lean-forward="true" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RoleMenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/activerecord/Model.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1950">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/model/RoleMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-717">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#2062#2063#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/model/UserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/model/UserLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="94" column="30" lean-forward="true" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserLoginMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rbac/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

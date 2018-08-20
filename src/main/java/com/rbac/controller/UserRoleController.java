@@ -15,7 +15,7 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 @RequestMapping("/userRole")
-public class UserRoleController {
+public class UserRoleController extends  BaseController {
 
 }
 

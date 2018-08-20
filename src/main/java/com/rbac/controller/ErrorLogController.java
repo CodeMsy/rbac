@@ -15,7 +15,7 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 @RequestMapping("/errorLog")
-public class ErrorLogController {
+public class ErrorLogController extends  BaseController {
 
 }
 

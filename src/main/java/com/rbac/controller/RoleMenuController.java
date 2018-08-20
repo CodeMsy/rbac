@@ -15,7 +15,7 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 @RequestMapping("/roleMenu")
-public class RoleMenuController {
+public class RoleMenuController extends  BaseController {
 
 }
 
