@@ -1,0 +1,5 @@
+server:
+  port: 8080
+RBAC:
+  Role: 角色
+  Base: 基础

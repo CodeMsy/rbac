@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rbac.mapper.OperationLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.rbac.model.OperationLog">
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="request_ip" property="requestIp" jdbcType="VARCHAR" />
+        <result column="request_url" property="requestUrl" jdbcType="VARCHAR" />
+        <result column="request_params" property="requestParams" jdbcType="VARCHAR" />
+        <result column="class_path" property="classPath" jdbcType="VARCHAR" />
+        <result column="method_name" property="methodName" jdbcType="VARCHAR" />
+        <result column="method_params" property="methodParams" jdbcType="VARCHAR" />
+        <result column="business_type" property="businessType" jdbcType="BIT" />
+        <result column="business_name" property="businessName" jdbcType="VARCHAR"/>
+        <result column="business_status" property="businessStatus" jdbcType="BIT" />
+        <result column="business_remarks" property="businessRemarks" jdbcType="VARCHAR" />
+        <result column="operator_type" property="operatorType" jdbcType="BIT" />
+        <result column="before_update_json" property="beforeUpdateJson" jdbcType="VARCHAR" />
+        <result column="after_update_json" property="afterUpdateJson" jdbcType="VARCHAR" />
+        <result property="deleted" column="deleted" jdbcType="BIT"/>
+        <result property="creator" column="creator" jdbcType="VARCHAR"/>
+        <result property="createDate" column="create_date" jdbcType="TIMESTAMP"/>
+        <result property="modifier" column="modifier" jdbcType="VARCHAR"/>
+        <result property="modifyDate" column="modify_date" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+</mapper>

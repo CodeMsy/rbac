@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rbac.mapper.UserLoginMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.rbac.model.UserLogin">
+        <id column="ID" property="id" jdbcType="BIGINT" />
+        <result column="user_id" property="userId" jdbcType="BIGINT" />
+        <result column="origin_code" property="originCode" jdbcType="VARCHAR" />
+        <result column="account" property="account" jdbcType="VARCHAR" />
+        <result column="password" property="password" jdbcType="VARCHAR" />
+        <result property="deleted" column="deleted" jdbcType="BIT"/>
+        <result property="creator" column="creator" jdbcType="VARCHAR"/>
+        <result property="createDate" column="create_date" jdbcType="TIMESTAMP"/>
+        <result property="modifier" column="modifier" jdbcType="VARCHAR"/>
+        <result property="modifyDate" column="modify_date" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+</mapper>
